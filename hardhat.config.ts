@@ -5,7 +5,7 @@ import "solidity-coverage";
 import "hardhat-deploy";
 import dotenv from "dotenv";
 import yargs from "yargs";
-import { getSingletonFactoryInfo } from "@gnosis.pm/safe-singleton-factory";
+import { getSingletonFactoryInfo } from "@enjinstarter/safe-global-safe-singleton-factory";
 
 const argv = yargs
   .option("network", {
@@ -120,6 +120,10 @@ const userConfig: HardhatUserConfig = {
     bsc: {
       ...sharedNetworkConfig,
       url: `https://bsc-dataseed.binance.org/`,
+    },
+    chapel: {
+      ...sharedNetworkConfig,
+      url: `https://data-seed-prebsc-1-s1.binance.org:8545`,
     },
     arbitrum: {
       ...sharedNetworkConfig,

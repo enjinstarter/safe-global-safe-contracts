@@ -30,6 +30,11 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@enjinstarter/safe-global-safe-singleton-factory@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@enjinstarter/safe-global-safe-singleton-factory/-/safe-global-safe-singleton-factory-1.0.11.tgz#0017c0ee4930c1b95a8088b8256f361b62b72999"
+  integrity sha512-pMZsQ/6q5b8LtTdDqcGestoEB2uEBJdW+LIBqtPzYG877KdbpyXLuhvsu7Up6Cx+QghmvrvrdSPxq/+BM5f6sA==
+
 "@ensdomains/ens@^0.4.4":
   version "0.4.5"
   resolved "https://registry.yarnpkg.com/@ensdomains/ens/-/ens-0.4.5.tgz#e0aebc005afdc066447c6e22feb4eda89a5edbfc"
@@ -886,18 +891,6 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@gnosis.pm/mock-contract/-/mock-contract-4.0.0.tgz#eaf500fddcab81b5f6c22280a7b22ff891dd6f87"
   integrity sha512-SkRq2KwPx6vo0LAjSc8JhgQstrQFXRyn2yqquIfub7r2WHi5nUbF8beeSSXsd36hvBcQxQfmOIYNYRpj9JOhrQ==
-
-"@gnosis.pm/safe-singleton-factory@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@gnosis.pm/safe-singleton-factory/-/safe-singleton-factory-1.0.3.tgz#be47df6b75fe61450c5493d9ffc2e66fb82c39a7"
-  integrity sha512-zmTWCs/FonuN7OiIinLja2PgkmP6Wvx14bmTb9Rf22qylKxA4VTzsaCjilL2vjvKc62YyHN5CW4B2V9VLXPSHQ==
-  dependencies:
-    "@types/yargs" "^15.0.10"
-    argv "^0.0.2"
-    axios "^0.21.1"
-    dotenv "^8.0.0"
-    ethers "^5.1.4"
-    yargs "^16.1.1"
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
