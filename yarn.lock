@@ -30,10 +30,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@enjinstarter/safe-global-safe-singleton-factory@^1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@enjinstarter/safe-global-safe-singleton-factory/-/safe-global-safe-singleton-factory-1.0.11.tgz#0017c0ee4930c1b95a8088b8256f361b62b72999"
-  integrity sha512-pMZsQ/6q5b8LtTdDqcGestoEB2uEBJdW+LIBqtPzYG877KdbpyXLuhvsu7Up6Cx+QghmvrvrdSPxq/+BM5f6sA==
+"@enjinstarter/safe-global-safe-singleton-factory@^1.0.11-ejs.0.1.0":
+  version "1.0.11-ejs.0.1.0"
+  resolved "https://registry.yarnpkg.com/@enjinstarter/safe-global-safe-singleton-factory/-/safe-global-safe-singleton-factory-1.0.11-ejs.0.1.0.tgz#cf01d7910da62205d977d9bf809f388a88da58af"
+  integrity sha512-+JhF39897MAhq/koFK7iONJe0D9U0S8xyhPP+qRdBhPHySjGsghOclR+wM9u2E1ZeI4qOLdeRTyHfpEA/8fWZw==
 
 "@ensdomains/ens@^0.4.4":
   version "0.4.5"
